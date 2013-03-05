@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/SecondScreenPadding"
+    android:layout_marginLeft="@dimen/SecondScreenPadding"
+    android:layout_marginRight="@dimen/SecondScreenPadding"
+    android:layout_marginTop="@dimen/SecondScreenPadding"
+    android:background="@color/Blue"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/category_items_fragment"
+        android:name="com.example.pager.CategoryItemsFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/item_info_fragment"
+        android:name="com.example.pager.ItemInfoFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <fragment
+        android:id="@+id/package_items_fragment"
+        android:name="com.example.pager.PackageItemsFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

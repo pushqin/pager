@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_clicktestactivity">Clicktestactivity</string>
+    <string name="title_activity_itemsactivity">Items Activity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="package_type">Package Type</string>
+    <string name="room_type">Room Type</string>
+    <string name="packager">Packager</string>
+    <string name="item_condition">Condition</string>
+    <string name="item_height">Height</string>
+    <string name="item_width">Width</string>
+    <string name="item_length">Length</string>
+    <string name="item_serial_number">Serial Number</string>
+    <string name="item_notes">Notes</string>
+    <color name="White">#FFFFFF</color>
+    <color name="Red">#FF0000</color>
+    <color name="Green">#00FF00</color>
+    <color name="Blue">#0000FF</color>
+
+</resources>

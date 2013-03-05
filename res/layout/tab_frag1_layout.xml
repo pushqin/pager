@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grdTab1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:horizontalSpacing="2dp"
+    android:numColumns="15"
+
+    android:paddingLeft="4dp"
+
+    android:paddingTop="4dp"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="2dp" 
+    android:background="@color/Red">
+
+</GridView>
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:layout_width="match_parent" -->
+<!--     android:layout_height="match_parent" -->
+<!--     android:orientation="horizontal" -->
+<!--     android:id="@+id/a1" > -->
+
+<!-- </TableLayout> -->
